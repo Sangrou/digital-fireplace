@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(255, 251, 247);
+    color: rgb(22, 22, 22);
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 75%) 0%,
+  hsl(304deg 69% 64%) 5%,
+  hsl(335deg 100% 67%) 11%,
+  hsl(5deg 100% 69%) 19%,
+  hsl(31deg 100% 58%) 30%,
+  hsl(55deg 100% 40%) 48%,
+  hsl(77deg 57% 46%) 72%,
+  hsl(114deg 36% 51%) 85%,
+  hsl(155deg 62% 39%) 92%,
+  hsl(172deg 100% 29%) 97%,
+  hsl(181deg 96% 26%) 100%
+);
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 10px 0px;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: 'Old Standard TT', serif;
+}
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: 'Old Standard TT', serif;
+}
+p {
+  font-size: 18px;
+  padding-top: 10px;
+  font-family: 'Rubik', sans-serif;
+}
+.mainTxt{
+  text-indent: 4ch;
+}
+ol{
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+}
+a{
+  color: brown;
+  font-family: 'Rubik', sans-serif;
+}
+
+span{
+  font-family: 'Rubik', sans-serif;
+}
+
+/* fade in styling */
+img {
+  opacity: 0;
+  transform: translate(0, 20px); transition: all 1s;
+}
+  img.visible { 
+     opacity: 1;
+     transform: translate(0, 0); 
+}
+
+.btn,.card{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(8px);
+}
