@@ -55,6 +55,7 @@ span{
 
 /* fade in styling */
 img {
+  width: 100%;
   opacity: 0;
   transform: translate(0, 20px); transition: all 1s;
 }
